@@ -1,7 +1,7 @@
 [app]
 
 # (str) Title of your application
-title = MECH PEC
+title = My Application
 
 # (str) Package name
 package.name = myapp
@@ -16,7 +16,7 @@ source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
 
 # (list) List of inclusions using pattern matching
-#source.include_patterns = images/*.jpg
+#source.include_patterns = assets/*,images/*.png
 
 # (list) Source files to exclude (let empty to not exclude anything)
 #source.exclude_exts = spec
@@ -37,7 +37,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3==3.7,kivy==2.1.0,kivymd==0.104.2,pillow==8.3.1,kivy_garden
+requirements = python3,kivy
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
